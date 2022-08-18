@@ -1,0 +1,398 @@
+/* 
+  WEB222 – Final Assessment
+ 
+  I declare that my assessment is wholly my own work in accordance
+  with Seneca Academic Policy. No part of this assessment has been copied manually
+  or electronically from any other source (including web sites) except for 
+  the information supplied by the WEB222 instructors and / or made available in
+  this assessment for my use. I also declare that no part of this assignment has
+  been distributed to other students.
+ 
+ 
+ 
+  Name:       Karamvir Singh
+  Student ID: 158121210
+  Date:       18 August 2022
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#Contact {
+  background-image: url("../All_Images/Contact_Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -50%;
+}
+#Home {
+  background-image: url("../All_Images/Home_Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#About {
+  background-image: url("../All_Images/About_Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top:-5%;
+  margin-bottom:-18%;
+}
+#Education {
+  background-image: url("../All_Images/Education_Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 50%;
+}
+.Menu li a {
+  text-decoration: underline;
+  font-size: 1rem;
+  font-family: serif ;
+  color: black;
+  ;
+}
+.Menu li {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  width: 120px;
+  transition: width 0.5s;
+  position: relative;
+  font-family: serif;
+}
+.Navbar {
+  text-align: center;
+  background-color: burlywood;
+  position: fixed;
+  width: 100%;
+}
+.Navbar li:hover {
+  background-color: red;
+  width: 140px;
+  color: red;
+}
+
+.Image {
+  padding-top: 7rem;
+}
+
+.Image img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-bottom: 4rem;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.About {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: -3%;
+}
+
+.About h2 {
+  font-weight: bold;
+  font-size: 50px;
+  color: Black;
+  font-family: serif;
+}
+
+.About p {
+  color: forestgreen;
+  padding-top: 4%;
+  font-size: 35px;
+  font-family:serif;
+}
+
+.buttons {
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: -5%;
+}
+
+.buttons button {
+  margin: 20px;
+  padding: 1rem 3rem;
+  border-radius: 4rem;
+  background-color: grey;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.buttons button:hover {
+  background-color: salmon;
+}
+
+.buttons i {
+  padding-right: 5px;
+}
+
+#About h1 {
+  text-align: center;
+  padding-right: 40%;
+  font-size: 2rem;
+  color: darkred;
+  font-family: serif;
+}
+
+.sections {
+  display: inline-block;
+  margin: 0px 220px;
+  padding-top: 5%;
+  justify-content: space-around;
+  color: black;
+}
+
+.Honesty {
+  width: 600px;
+  padding-top: 20px;
+  border-width: 1em;
+  margin-left: 20px;
+  box-shadow: 10px 10px 10px lightyellow;
+  background-size: cover;
+  background-color: yellow
+}
+
+.Honesty p {
+  padding-top: 20px;
+  font-size: 1.1rem;
+  padding-left: 10%;
+  font-family: serif;
+  width: 500px;
+}
+
+.Honesty p span {
+  padding-left: 60%;
+}
+
+.Honesty h2 {
+  font-family: serif;
+  padding-left: 20%;
+}
+
+.Information {
+  width: 450px;
+  margin-top: 10%;
+  margin-left:30%;
+  margin-bottom:60%;
+  padding-left: 0px;
+  box-shadow: 10px 10px 10px lightyellow;
+  background-size: cover;
+  background-color: yellow;
+}
+
+.Info{
+  text-decoration: underline;
+  padding-left: 30%;
+
+}
+
+.Information h2 {
+  text-align: center;
+  font-family: serif;
+  padding-top: 10%; 
+}
+
+.InformationContainer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.InformationContainer li {
+  padding: 8px;
+}
+
+.Tag {
+    font-weight: 900;
+}
+
+.Edu {
+  padding-left:30%;
+  padding-top: 0%;
+  color: darkmagenta;
+  font-size: 2.5rem;
+  font-family: serif;
+  text-decoration: underline;
+}
+
+.Education {
+  text-align: center;
+  display: inline-block;
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+.Education img {
+  border-radius: 45%;
+  width: 150px;
+  height: 100px;
+  padding: 25px;
+  margin-left: 18%;
+}
+
+.Education_1{
+  width: 600px;
+  height: 200px;
+  margin-left:20%;
+  margin-bottom:0%;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-size: cover;
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Education_1 li{
+  padding-top: 8px;
+  list-style-type: none;
+  justify-content: space;
+  white-space: nowrap;
+  float: center;
+  font-weight: bold;
+}  
+
+.Education_2{
+  width: 600px;
+  height: 200px;
+  margin-left:20%;
+  margin-bottom:10%;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-size: cover;
+  background-color: palevioletred ;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Education_2 li{
+  padding-top: 8px;
+  list-style-type: none;
+  justify-content: space;
+  white-space: nowrap;
+  float: center;
+  font-weight: bold;
+}
+
+.Education_3{
+  width: 600px;
+  height: 200px;
+  margin-left:20%;
+  margin-bottom:10%;
+  padding-top: 20px;
+  margin-top: -20px;
+  background-size: cover;
+  background-color: lawngreen ;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Education_3 li{
+  padding-top: 8px;
+  list-style-type: none;
+  justify-content: space;
+  white-space: nowrap;
+  float: center;
+  font-weight: bold;
+}
+
+.cont {
+  text-align: center;
+  color: orangered;
+  padding-top: 1%;
+  font-size: 2.1rem;
+  font-family: serif;
+  margin-left: -10%;
+  text-decoration: underline;
+}
+
+.Row {
+  display: flex;
+  white-space: nowrap;
+  padding-top: 2%;
+}
+
+.Column_1 {
+  color: navy ;
+  font-size: 2.1rem;
+  padding-left: 10%;
+  margin: 1rem;
+  font-weight:bold;
+}
+
+.Column_2 {
+  width: 550px;
+  margin: 1rem;
+}
+
+.Column_2 input {
+  width: 90%;
+  height: 15px;
+  padding: 15px;
+  font-size: 0.9rem;
+  box-shadow: 10px 10px 10px black;
+}
+
+.Column_2 textarea {
+  width: 110%;
+  height: 20%;
+  padding: 0px;
+  font-size: 1.3rem;
+  box-shadow: 10px 10px 10px black;
+}
+
+.RadioButton {
+  padding-left: 5rem;
+  margin: 3rem 5rem;
+  display: block;
+}
+
+.RadioButton h4 {
+  color: navy;
+  font-size: 2.1rem;
+  font-weight: bold;
+  padding-top: 0rem;
+  padding-right: 21rem;
+}
+
+.RadioButton label {
+  color: darkgreen;
+  padding-top: 10rem;
+  font-size: 1.2rem;
+  font-family: serif;
+}
+
+.Button {
+  text-align: center;
+  padding-right: 10%;
+}
+
+.Button input {
+  margin: 10px;
+  padding-right: 2.2%;
+  padding-left: 2.2%;
+  padding-top: 2.2%;
+  padding-bottom: 2.2%;
+  border-radius: 1px;
+  background-color: black;
+  color: cornsilk;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: grab;
+}
+
+.Button input:hover {
+  background-color: none;
+  color: brown;
+}
+
